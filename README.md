@@ -1,6 +1,3 @@
-# SOs Josue Moreira
- Sistemas Operativos ULACIT
-
 # Curso de Sistemas Operativos
  
 Josue Moreira Brenes
