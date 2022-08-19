@@ -1,5 +1,5 @@
-#Comandos Linux
-##Elaborado por Josue Moreira Brenes
+**Comandos Linux**
+_Elaborado por Josue Moreira Brenes_
 
 | Comando | Descripcion |
 | ------- | ----------- |
