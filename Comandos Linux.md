@@ -17,8 +17,15 @@ _Elaborado por Josue Moreira Brenes_
 | sudo history | Historial de comandos |
 | sudo su | Cambiar  a super usuario |
 | sudo mount | Monta un sistema de archivos |
-|  |  |
-|  |  |
-|  |  |
+| sudo nano "archivo" | Crea o modifica un archivo de texto |
+| sudo cp | Copia un archivo o carpeta |  
+| sudo mv | Mueve un archivo o carpeta |  
+| sudo systemctl start "proceso" | Inicia un proceso |
+| sudo systemctl restart "proceso" | Reinicia un proceso |
+| sudo systemctl stop "proceso" | Detiene un proceso |
+| sudo systemctl enable "proceso" | Habilita un proceso |
+| sudo systemctl status "proceso" | Muestra el estado un proceso |
+| sudo ufw default deny "conexión" | Utiliza el firewall por defecto UFW para bloquear conexiones |
+| sudo ufw default allow "conexión" | Utiliza el firewall por defecto UFW para permitir conexiones |
 |  |  | 
 |  |  | 
