@@ -27,5 +27,10 @@ _Elaborado por Josue Moreira Brenes_
 | sudo systemctl status "proceso" | Muestra el estado un proceso |
 | sudo ufw default deny "conexión" | Utiliza el firewall por defecto UFW para bloquear conexiones |
 | sudo ufw default allow "conexión" | Utiliza el firewall por defecto UFW para permitir conexiones |
-|  |  | 
-|  |  | 
+| docker run hello-world | Verifica que docker esté funcionando correctamente | 
+| docker search "imagen" | Busca una imagen de docker | 
+| docker pull "imagen" | Instala una imagen de docker | 
+| docker docker run "imagen" | Ejecuta una imagen de docker | 
+| docker docker images | Muestra todas las imágenes instaladas | 
+| docker ps -a | Muestra el estado de las imágenes | 
+|  docker start|  Muestra el estado de las imágenes | 
