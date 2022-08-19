@@ -4,32 +4,38 @@ _Elaborado por Josue Moreira Brenes_
 | Comando | Descripción |
 | ------- | ----------- |
 | ip addr | Obtiene la dirección IP del dispositivo |
-| sudo apt-get update | Actualiza los repositorios pero no instala nada |
-| sudo apt-get upgrade | Instala las actualizaciones de los paquetes instalados en el equipo |
-| sudo apt-get "nombre programa" | Instala software o programas adicionales |
-| sudo apt purge -y "nombre programa" | Desinstala un programa instalado |
+| ping | Permite ver si un dispositivo está en línea |
+| apt-get update | Actualiza los repositorios pero no instala nada |
+| apt-get upgrade | Instala las actualizaciones de los paquetes instalados en el equipo |
+| apt-get "nombre programa" | Instala software o programas adicionales |
+| apt purge -y "nombre programa" | Desinstala un programa instalado |
 | cd "/directorio" | Cambia de directorio |
 | pwd | Muestra el directorio donde se encuentra actualmente |
 | mkdir "nombre directorio"  | Crea directorio |
 | ls | Muestra los archivos y carpetas de un directorio |
 | ls -l | Muestra los permisos de la carpeta |
-| sudo adduser <nombre de usuario> | Crea un nuevo usuario |
-| sudo passwd <nombre de usuario> | Cambia la contraseña de un usuario |
-| sudo history | Historial de comandos |
+| adduser <nombre de usuario> | Crea un nuevo usuario |
+| passwd <nombre de usuario> | Cambia la contraseña de un usuario |
+| history | Historial de comandos |
 | sudo su | Cambiar  a super usuario |
-| sudo mount | Monta un sistema de archivos |
-| sudo nano "archivo" | Crea o modifica un archivo de texto |
-| sudo echo "texto" | Muestra texto en la terminal |
-| sudo cp | Copia un archivo o carpeta |  
-| sudo mv | Mueve un archivo o carpeta |  
-| sudo rm -rfv | Elimina un archivo o carpeta |
-| sudo systemctl start "proceso" | Inicia un proceso |
-| sudo systemctl restart "proceso" | Reinicia un proceso |
-| sudo systemctl stop "proceso" | Detiene un proceso |
-| sudo systemctl enable "proceso" | Habilita un proceso |
-| sudo systemctl status "proceso" | Muestra el estado un proceso |
-| sudo ufw default deny "conexión" | Utiliza el firewall por defecto UFW para bloquear conexiones |
-| sudo ufw default allow "conexión" | Utiliza el firewall por defecto UFW para permitir conexiones |
+| mount | Monta un sistema de archivos |
+| nano "archivo" | Crea o modifica un archivo de texto |
+| echo "texto" | Muestra texto en la terminal |
+| cat | Muestra lo que hay en un archivo de texto |
+| cp | Copia un archivo o carpeta |  
+| mv | Mueve un archivo o carpeta |  
+| rm | Elimina un archivo |
+| rmdir | Elimina un directorio |
+| chmod | Modifica los permisos de un archivo |
+| systemctl start "proceso" | Inicia un proceso |
+| systemctl restart "proceso" | Reinicia un proceso |
+| systemctl stop "proceso" | Detiene un proceso |
+| systemctl enable "proceso" | Habilita un proceso |
+| systemctl status "proceso" | Muestra el estado un proceso |
+| kill | Finaliza un proceso |  
+| wget "página web" | Permite descargar archivos de Internet |  
+| ufw default deny "conexión" | Utiliza el firewall por defecto UFW para bloquear conexiones |
+| ufw default allow "conexión" | Utiliza el firewall por defecto UFW para permitir conexiones |
 | neofetch | Muestra especificaciones del dispositivo |
 | docker run hello-world | Verifica que docker esté funcionando correctamente | 
 | docker search "imagen" | Busca una imagen de docker | 
